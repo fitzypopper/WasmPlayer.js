@@ -13,8 +13,8 @@ snapshots captured on **2026-10-28**, before the files went dead.
 | File | Size | SHA-256 (first 12) | Recovery source |
 |---|---|---|---|
 | `WebClient.wasm` | 101,275,588 B | `ffeb536af6b5` | archive.org `20261028031147` (`id_` raw, was ~34 MB gzipped) |
-| `WebClient.recovered.js` | 125,172 B | — | Brave cache block `f_000d1d` (26,327 B gzip on wire) |
-| `WasmPlayer.recovered.js` | 76,099 B | — | Brave cache block `f_000d1b` (26,327 B gzip on wire) |
+| `WebClient.js` | 125,172 B | `099dc43095d6` | Brave cache block `f_000d1d` (26,327 B gzip on wire) |
+| `WasmPlayer.js` | 76,099 B | `a99c299feb2e` | Brave cache block `f_000d1b` (26,327 B gzip on wire) |
 | `WebFlags.json` | 156 B | — | archive.org `20261028094936` |
 | `WebClient.metadata.json` | 3,295,454 B | `64a25c194035` | archive.org `20261028022835` (gzip → decompressed) |
 | `clientsettings_user-channel.json` | 22 B | — | live API snapshot |
@@ -49,6 +49,8 @@ https://setup.rbxcdn.com/webclient/version-f4a4dba57f874ad0-RobloxWebClient/
 
 Only one Wayback entry exists for `WasmPlayer.js` and it is a 403 snapshot;
 `WebClient.js` was never archived — both are covered here from the cache recovery.
+(The CDN filenames are mirrored directly in this repo; `WasmPlayer.js` SHA-256
+`a99c299f…` predates the outage and is verified intact.)
 
 ## Notes
 
