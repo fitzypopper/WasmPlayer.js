@@ -1,0 +1,6 @@
+{
+    "applicationSettings": {
+        "FFlagRbxTransportWasmUtf8CloseReason": "True",
+        "DFFlagRbxTransportWasmReportConnectionLost": "True"
+    }
+}
